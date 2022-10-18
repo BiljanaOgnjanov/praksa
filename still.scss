@@ -98,7 +98,6 @@ body {
 main {
   .dvgImage {
     position: relative;
-
     .circleImg {
       position: absolute;
       bottom: 2rem;
@@ -107,9 +106,14 @@ main {
       &:hover {
         cursor: pointer;
       }
+
+     
     }
   }
-
+  .img100{
+    width: 100%;
+        }
+     
   .dvgOne {
     display: flex;
     margin: 3rem 0;
@@ -235,6 +239,7 @@ main {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      }
 
       h2 {
         font-family: "Roboto", sans-serif;
@@ -249,4 +254,4 @@ main {
      
     }
   }
-}
+
