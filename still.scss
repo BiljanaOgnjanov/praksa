@@ -445,21 +445,32 @@ main {
 
       footer{
 
-        padding: 70px;
+        // padding: 70px;
 
         display: flex;
         background-image: url('./img/footer1.png');
         background-size: cover;
-
+        flex-direction: column;
         .footerDown{
           display: flex;
           width: 100%;
-          position: absolute;
           justify-content: space-between;
           padding: 20px;
           bottom:0;
 
           background-color: rgba(0, 0, 0, 0.33);
+        }
+
+        .footerMidLeft{
+          color: #F4F4F4;
+        }
+
+        .footerMidRight{
+          color: #F4F4F4;
+        }
+
+        .footerRight{
+          color: #F4F4F4;
         }
       }
 

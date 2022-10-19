@@ -348,17 +348,25 @@ main .dvgSixButton {
 }
 
 footer {
-  padding: 70px;
   display: flex;
   background-image: url("./img/footer1.png");
   background-size: cover;
+  flex-direction: column;
 }
 footer .footerDown {
   display: flex;
   width: 100%;
-  position: absolute;
   justify-content: space-between;
   padding: 20px;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.33);
+}
+footer .footerMidLeft {
+  color: #F4F4F4;
+}
+footer .footerMidRight {
+  color: #F4F4F4;
+}
+footer .footerRight {
+  color: #F4F4F4;
 }/*# sourceMappingURL=still.css.map */
