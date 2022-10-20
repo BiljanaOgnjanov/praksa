@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -211,11 +211,14 @@ main {
     }
   }
 
+
+
   .dvgThree {
     margin-top: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
+
 
     h4 {
       text-transform: uppercase;
@@ -242,7 +245,7 @@ main {
     // align-items: center;
     flex-direction: column;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 
 
@@ -251,6 +254,20 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    h2{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 34px;
+
+
+      text-align: center;
+
+      color: #303030;
+    }
+
   }
 
 
@@ -294,24 +311,37 @@ main {
     background-image: url('./img/rectangle.png');
     margin-top: 5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
-    padding: 0 25px;
+    padding: 25px;
     color: white;
+    font-family: 'Inter';
+    font-style: normal;
+
+    .dvgFourNumberContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap:1rem;
 
     h3 {
 
-      width: 169px;
-      height: 34px;
+      
       color: white;
-      font-family: 'Inter';
       font-style: normal;
       font-weight: 900;
       font-size: 46px;
-      line-height: 34px;
+    
+      font-family: 'Inter', sans-serif;
+
 
     }
+  p{
+    font-family: 'Inter', sans-serif;
+  }
+  }
+
 
   }
 
@@ -321,6 +351,8 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #F4F4F4;
+    font-family: 'Roboto';
+
   }
 
   .dvgFiveTitle {
@@ -381,7 +413,7 @@ main {
     font-weight: 400;
     font-size: 24px;
     line-height: 22px;
-
+    text-align: left;
     text-transform: uppercase;
 
     color: #474747;
@@ -402,9 +434,7 @@ main {
     }
 
 
-    .line2 {
-      text-align: center;
-    }
+    
 
     .dvgSixBrands {
       display: flex;
@@ -427,9 +457,15 @@ main {
         font-weight: 400;
         font-size: 18px;
         line-height: 34px;
+
         text-align: center;
 
         color: #474747;
+
+        flex: none;
+
+        flex-grow: 0;
+
 
       }
     }
@@ -464,10 +500,12 @@ footer {
   flex-direction: column;
   list-style-type: none;
 
+
   .footerUp{
     display:flex;
     justify-content: space-around;
     padding:2rem;
+
   }
 
 
@@ -483,6 +521,13 @@ footer {
 
   .footerMidLeft {
     color: #F4F4F4;
+    .title{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 34px;
+    }
   }
 
   .footerMidRight {
