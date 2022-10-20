@@ -337,7 +337,7 @@ main .dvgSix .dvgSixBrands .brandTitle {
 }
 main .dvgSix .dvgSixButton {
   align-items: center;
-  padding: 0px 16px;
+  padding: 0px 19px;
   font-weight: 500;
   font-family: "Roboto";
   color: white;
@@ -354,6 +354,7 @@ footer {
   background-image: url("./img/footer1.png");
   background-size: cover;
   flex-direction: column;
+  list-style-type: none;
 }
 footer .footerUp {
   display: flex;
@@ -373,6 +374,10 @@ footer .footerMidLeft {
 }
 footer .footerMidRight {
   color: #F4F4F4;
+  text-transform: uppercase;
+}
+footer .footerMidRight ul li {
+  list-style-type: none;
 }
 footer .footerRight {
   color: #F4F4F4;
