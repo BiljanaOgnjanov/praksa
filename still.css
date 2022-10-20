@@ -416,11 +416,23 @@ footer .footerRight {
 .swiper {
   width: 600px;
   height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .swiper .swiper-slide {
   align-items: center;
   justify-content: center;
   display: flex;
-  width: 600px;
-  height: 300px;
+  flex-direction: column;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #474747;
+}
+.swiper .swiper-slide img {
+  height: 75%;
 }/*# sourceMappingURL=still.css.map */
