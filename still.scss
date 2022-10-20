@@ -242,10 +242,8 @@ main {
   .dvgFour {
 
     display: flex;
-    // align-items: center;
     flex-direction: column;
     text-align: center;
-   // margin-top: 2rem;
   }
 
 
@@ -586,4 +584,18 @@ footer {
     }
 
   }
+
+    .swiper-button-prev{
+      color: #BF0F0F;
+    }
+    .swiper-button-next{
+      color: #BF0F0F;
+    }
+
+    .line {
+      height: 6px;
+      width: 10vw;
+      background-color: $main-line-color;
+      margin-bottom: 1rem;
+    }
 }

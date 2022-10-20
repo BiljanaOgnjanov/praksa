@@ -435,4 +435,16 @@ footer .footerRight {
 }
 .swiper .swiper-slide img {
   height: 75%;
+}
+.swiper .swiper-button-prev {
+  color: #BF0F0F;
+}
+.swiper .swiper-button-next {
+  color: #BF0F0F;
+}
+.swiper .line {
+  height: 6px;
+  width: 10vw;
+  background-color: #bf0f0f;
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=still.css.map */
