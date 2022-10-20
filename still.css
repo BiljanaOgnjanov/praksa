@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
@@ -305,21 +306,21 @@ main .dvgSix {
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
+  gap: 5rem;
 }
 main .dvgSix .dvgSixTitle {
   width: 100%;
   text-align: center;
 }
-main .dvgSix .line {
+main .dvgSix .line2 {
   text-align: center;
 }
 main .dvgSix .dvgSixBrands {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: 30px;
-  padding: 0 290px;
+  margin: 0 5rem;
+  gap: 5rem;
 }
 main .dvgSix .dvgSixBrands .arrow {
   align-items: center;
@@ -334,24 +335,30 @@ main .dvgSix .dvgSixBrands .brandTitle {
   text-align: center;
   color: #474747;
 }
-main .dvgSixButton {
-  display: flex;
-  justify-content: center;
+main .dvgSix .dvgSixButton {
   align-items: center;
   padding: 0px 16px;
-  position: absolute;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: white;
   width: 255px;
   height: 48px;
-  left: 590px;
   background: #BF0F0F;
+  border: 1px solid transparent;
   border-radius: 4px;
 }
 
 footer {
+  margin-top: 2rem;
   display: flex;
   background-image: url("./img/footer1.png");
   background-size: cover;
   flex-direction: column;
+}
+footer .footerUp {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
 }
 footer .footerDown {
   display: flex;

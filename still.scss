@@ -7,10 +7,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:"Roboto Condensed", sans-serif;
+
+
 }
 
 body {
   background-color: $main-color;
+
 
   img {
     max-width: 100%;
@@ -98,6 +102,7 @@ body {
 main {
   .dvgImage {
     position: relative;
+
     .circleImg {
       position: absolute;
       bottom: 2rem;
@@ -107,13 +112,14 @@ main {
         cursor: pointer;
       }
 
-     
+
     }
   }
-  .img100{
+
+  .img100 {
     width: 100%;
-        }
-     
+  }
+
   .dvgOne {
     display: flex;
     margin: 3rem 0;
@@ -121,6 +127,7 @@ main {
 
     .dvgOneImage {
       flex: 1;
+
       .dvgOneImg {
         max-width: none;
       }
@@ -173,6 +180,7 @@ main {
       .dvgOneDown {
         margin-top: 2rem;
         font-family: "Roboto", sans-serif;
+
         p {
           font-style: normal;
           font-weight: 400;
@@ -229,70 +237,70 @@ main {
   }
 
   .dvgFour {
-    
+
     display: flex;
     // align-items: center;
     flex-direction: column;
     text-align: center;
     margin-top: 5rem;
   }
-    
-
-    .dvgFourTitle {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      }
 
 
-      .dvgFourImage{
-        width: 137px;
-        height: 6px;
-        left: 790px;
-        background: #BF0F0F;
-      }
-
-      h2 {
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 42px;
-        line-height: 34px;
-        margin-top: 150px;
-        text-align: center;
-      }
-
-      h3{
-
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 28px;
-        line-height: 34px;
+  .dvgFourTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
 
-        text-align: center;
+  .dvgFourImage {
+    width: 137px;
+    height: 6px;
+    left: 790px;
+    background: #BF0F0F;
+  }
 
-        color: #474747;
-      
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 34px;
+    margin-top: 150px;
+    text-align: center;
+  }
+
+  h3 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
 
 
-    }
+    text-align: center;
 
-    .dvgFourNumbers {
-      width:100%;
-      height: 300px;
-      background-image: url('./img/rectangle.png');
-      margin-top:5rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      text-align: center;
-      padding: 0 25px;
-      color: white;
+    color: #474747;
 
-    h3{
+
+
+  }
+
+  .dvgFourNumbers {
+    width: 100%;
+    height: 300px;
+    background-image: url('./img/rectangle.png');
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 25px;
+    color: white;
+
+    h3 {
 
       width: 169px;
       height: 34px;
@@ -305,175 +313,182 @@ main {
 
     }
 
-      }
+  }
 
 
-   .dvgFive {
-      margin-top: 5rem;
-      display: flex;
-      flex-direction: column;
-      background-color: #F4F4F4;
-   }
-      
-        .dvgFiveTitle{ 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-      }
+  .dvgFive {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+  }
 
-      h2{
-        width: 906px;
-        height: 34px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 28px;
-        line-height: 34px;
-  
-        text-align: center;
-        color: #474747;
-        
+  .dvgFiveTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-      }
-      
-      .dvgFiveDescription{
-       
+  }
 
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 160%;
+  h2 {
+    width: 906px;
+    height: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
 
-        text-align: center;
+    text-align: center;
+    color: #474747;
 
-        color: #474747;    
+
+  }
+
+  .dvgFiveDescription {
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+
+    text-align: center;
+
+    color: #474747;
+
+  }
+
+
+  .dvgFiveProducts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .arrow {
+      align-items: center;
+      max-height: 50px;
+    }
+
+  }
+
+  .productTitle {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+
+    text-transform: uppercase;
+
+    color: #474747;
+  }
+
+  .dvgSix {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5rem;
+
+
+    .dvgSixTitle {
+      width: 100%;
+      text-align: center;
 
     }
 
 
-       .dvgFiveProducts{
-        display: flex;
-        justify-content: space-between;
+    .line2 {
+      text-align: center;
+    }
+
+    .dvgSixBrands {
+      display: flex;
+      // justify-content: space-around;
+      align-items: center;
+      margin: 0 5rem;
+      gap:5rem;
+      
+     
+
+      .arrow {
         align-items: center;
-        .arrow{
-          align-items: center;
-          max-height: 50px;
-        }
+        max-height: 50px;
+      }
 
-     }
-       .productTitle{
+      .brandTitle {
 
-        font-family: 'Roboto';
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
-        line-height: 22px;
-
-        text-transform: uppercase;
-
-        color: #474747;
-       }
-
-    
-      .dvgSix {
-        margin-top: 5rem;
-        display: flex;
-        flex-direction: column;
+        font-size: 18px;
+        line-height: 34px;
         text-align: center;
 
+        color: #474747;
 
-        
-        .dvgSixTitle{ 
-          width: 100%;
-          text-align: center;
-          
-         }
-
-
-        .line{ 
-          text-align: center;
-        }
-
-        .dvgSixBrands{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 30px;
-        padding: 0 290px;
-
-        .arrow{
-          align-items: center;
-          max-height: 50px;
-        }
-
-        .brandTitle{
-   
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 34px;
-            text-align: center;
-
-            color: #474747;
-            
-           }
-        }
-        }
-
-        .dvgSixButton{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 0px 16px;
-
-
-          position: absolute;
-          width: 255px;
-          height: 48px;
-          left: 590px;
-
-          background: #BF0F0F;
-          border-radius: 4px;
-        }
       }
+    }
+    .dvgSixButton {
+      align-items: center;
+      padding: 0px 16px;
+      font-weight: 500;
+      font-family: 'Roboto';
+      color:white;
+      width: 255px;
+      height: 48px;
+      background: #BF0F0F;
+      border:1px solid transparent;
+      border-radius: 4px;
+    }
+  }
 
 
 
-      footer{
 
-        // padding: 70px;
-
-        display: flex;
-        background-image: url('./img/footer1.png');
-        background-size: cover;
-        flex-direction: column;
-        .footerDown{
-          display: flex;
-          width: 100%;
-          justify-content: space-between;
-          padding: 20px;
-          bottom:0;
-
-          background-color: rgba(0, 0, 0, 0.33);
-        }
-
-        .footerMidLeft{
-          color: #F4F4F4;
-        }
-
-        .footerMidRight{
-          color: #F4F4F4;
-        }
-
-        .footerRight{
-          color: #F4F4F4;
-        }
-      }
+}
 
 
 
-    
+footer {
+
+  // padding: 70px;
+  margin-top: 2rem;
+  display: flex;
+  background-image: url('./img/footer1.png');
+  background-size: cover;
+  flex-direction: column;
+
+  .footerUp{
+    display:flex;
+    justify-content: space-around;
+    padding:2rem;
+  }
+
+
+  .footerDown {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    bottom: 0;
+
+    background-color: rgba(0, 0, 0, 0.33);
+  }
+
+  .footerMidLeft {
+    color: #F4F4F4;
+  }
+
+  .footerMidRight {
+    color: #F4F4F4;
+  }
+
+  .footerRight {
+    color: #F4F4F4;
+  }
+}
