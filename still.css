@@ -9,9 +9,6 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-body {
-  background-color: #f4f4f4;
-}
 body img {
   max-width: 100%;
 }
@@ -199,7 +196,6 @@ main .dvgFour {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 2rem;
 }
 main .dvgFourTitle {
   display: flex;
@@ -277,7 +273,7 @@ main .dvgFourNumbers .dvgFourNumberContainer p {
   font-family: "Inter", sans-serif;
 }
 main .dvgFive {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   background-color: #F4F4F4;
@@ -392,7 +388,9 @@ footer .footerDown {
   justify-content: space-between;
   padding: 20px;
   bottom: 0;
+  color: gray;
   background-color: rgba(0, 0, 0, 0.33);
+  text-decoration: underline;
 }
 footer .footerMidLeft {
   color: #F4F4F4;
@@ -413,4 +411,16 @@ footer .footerMidRight ul li {
 }
 footer .footerRight {
   color: #F4F4F4;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+.swiper .swiper-slide {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 600px;
+  height: 300px;
 }/*# sourceMappingURL=still.css.map */
