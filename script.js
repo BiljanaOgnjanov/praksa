@@ -23,3 +23,16 @@ const swiper = new Swiper('.swiper', {
 
     
   });
+
+  var sec = 0;
+  function pad ( val ) { return val; }
+  
+  setInterval( function(){
+      document.getElementById("value").innerHTML=pad(++sec%3000);
+  }, 1);
+
+
+
+
+
+  
