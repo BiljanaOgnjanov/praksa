@@ -36,7 +36,7 @@ const swiper = new Swiper('.swiper', {
   function funkcij ( val ) { return val; }
   
   setInterval( function(){
-      document.getElementById("value1").innerHTML=funkcij(++sec%3000);
+      document.getElementById("value1").innerHTML=funkcij(++sec%20);
   }, 1);
 
 
@@ -45,14 +45,16 @@ const swiper = new Swiper('.swiper', {
   
   setInterval ( function(){
       document.getElementById("value2").innerHTML=f(++sec%8);
+  
   }, 1);
+
 
 
   var sec = 0;
   function funk ( val ) { return val; }
   
   setInterval ( function(){
-      document.getElementById("value3").innerHTML=funk(++sec%8);
+      document.getElementById("value3").innerHTML=funk(++sec%170);
   }, 1);
 
   
