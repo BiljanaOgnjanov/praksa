@@ -560,7 +560,7 @@ footer {
   
 }
 .swiper {
-    width: 600px;
+    width: 1000px;
     height: 300px;
     display: flex;
     align-items: center;
@@ -568,7 +568,7 @@ footer {
 
    .swiper-slide{
     align-items: center;
-    justify-content: center;
+    //justify-content: center;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto';
@@ -578,6 +578,7 @@ footer {
     line-height: 22px;
     text-transform: uppercase;
     color: #474747;
+    background: white;
 
     img{
       height:75%;
