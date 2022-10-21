@@ -25,14 +25,34 @@ const swiper = new Swiper('.swiper', {
   });
 
   var sec = 0;
-  function pad ( val ) { return val; }
+  function funkcija ( val ) { return val; }
   
   setInterval( function(){
-      document.getElementById("value").innerHTML=pad(++sec%3000);
+      document.getElementById("value").innerHTML=funkcija(++sec%3000);
   }, 1);
 
 
+  var sec = 0;
+  function funkcij ( val ) { return val; }
+  
+  setInterval( function(){
+      document.getElementById("value1").innerHTML=funkcij(++sec%3000);
+  }, 1);
 
 
+  var sec = 0;
+  function f ( val ) { return val; }
+  
+  setInterval ( function(){
+      document.getElementById("value2").innerHTML=f(++sec%8);
+  }, 1);
+
+
+  var sec = 0;
+  function funk ( val ) { return val; }
+  
+  setInterval ( function(){
+      document.getElementById("value3").innerHTML=funk(++sec%8);
+  }, 1);
 
   
