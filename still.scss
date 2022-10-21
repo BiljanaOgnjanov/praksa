@@ -560,7 +560,7 @@ footer {
   
 }
 .swiper {
-    width: 1000px;
+    width: 1200px;
     height: 300px;
     display: flex;
     align-items: center;
@@ -584,14 +584,16 @@ footer {
       height:75%;
     }
 
-  }
 
-    .swiper-button-prev{
-      color: #BF0F0F;
-    }
-    .swiper-button-next{
-      color: #BF0F0F;
-    }
+  }
+  .swiper-button-prev{
+    color: #BF0F0F;
+    
+  }
+  .swiper-button-next{
+    color: #BF0F0F;
+  }
+    
 
     .line {
       height: 6px;

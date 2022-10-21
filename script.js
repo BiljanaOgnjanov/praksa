@@ -10,13 +10,13 @@ const swiper = new Swiper('.swiper', {
     //   el: '.swiper-pagination',
     // },
   
-    // Navigation arrows
+    // // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
   
-    // And if we need scrollbar
+    // // And if we need scrollbar
     // scrollbar: {
     //   el: '.swiper-scrollbar',
     // },
